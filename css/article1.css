@@ -1,0 +1,128 @@
+#header {
+  background-color: #00204a;
+  padding-bottom: unset;
+}
+
+body {
+  font-family: "Montserrat";
+}
+
+
+
+h4 {
+  text-align: center;
+  font-family: "Caveat";
+  font-size: 2.5rem;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  font-weight: bold;
+  color: #00204a;
+}
+
+hr{
+    border-style: solid;
+}
+
+.container-fluid {
+  padding: 3% 7%;
+}
+
+.navbar {
+  padding-left: 7%;
+  padding-right: 7%;
+}
+
+.navbar-brand {
+  font-family: "Audiowide";
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.nav-item {
+  padding-right: 7%;
+  padding-left: 0px;
+}
+
+/* Article head */
+#article-head {
+  background-color: #d9faff;
+}
+
+.article-name {
+  padding-left: 7%;
+  font-family: "Bebas Neue";
+  font-size: 3rem;
+  font-weight: bold;
+  color: #0f4c75;
+}
+
+.feature {
+  color: #0f4c75;
+  font-size: 1.3rem;
+}
+
+.picture1 {
+  border-radius: 12%;
+  position: absolute;
+  right: 20%;
+  width: 40%;
+  transform: rotate(10deg);
+}
+
+/* Preview section */
+#preview {
+  background-color: #d9faff;
+  text-align: justify;
+  padding-bottom: 5%;
+}
+
+#about {
+  background-color: #d9faff;
+  text-align: justify;
+  padding-bottom: 5%;
+}
+
+#summary {
+  background-color: #d9faff;
+  text-align: justify;
+  padding-bottom: 5%;
+}
+
+.finalimg {
+  width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5%;
+}
+
+/* Footer Section */
+
+.white-section {
+  text-align: center;
+  background-color: #d9faff;
+  color: gray;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+.social-icon:hover {
+  color: #3282b8;
+}
+
+.back-to-top {
+  color: gray;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
