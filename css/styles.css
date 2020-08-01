@@ -1,0 +1,179 @@
+body {
+  font-family: "Montserrat";
+}
+
+#title {
+  background-color: #00204a;
+}
+
+.container-fluid {
+  padding: 2% 7% 7%;
+}
+
+h1 {
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.navbar{
+  padding-left: 7%;
+  padding-right: 7%;
+}
+
+.navbar-brand{
+  font-family: 'Audiowide';
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+/* Title section */
+.welcome-text {
+  font-family: "Montserrat";
+  color: white;
+  font-weight: bold;
+  font-size: 3rem;
+  text-align: center;
+  padding-top: 5%;
+  margin: auto;
+}
+
+.welcome-note {
+  padding: 5%;
+  margin: auto;
+  width: 60%;
+  color: white;
+  font-family: "Recursive";
+  line-height: 1.5;
+  text-align: center;
+}
+
+/* Latest posts section */
+#recent-posts {
+  background-color: #d9faff;
+  padding: 5% 7%;
+}
+
+.article-heading{
+  color: #3282b8;
+  font-family: 'Montserrat';
+  text-align: center;
+  font-weight: 800;
+  font-size: 3rem;
+  padding-bottom: 5%;
+}
+
+.article-title{
+  font-family: 'Merriweather';
+  color: grey;
+}
+
+.article-title:hover{
+  color: darkcyan;
+}
+
+.recent {
+  text-align: center;
+}
+
+.post {
+  font-family: 'Merriweather';
+}
+
+.article-img{
+  width:200px;
+  height: 300px;
+}
+
+.info {
+  padding: 5% 5%;
+  margin: auto;
+  text-align: left;
+  widows: 40%;
+}
+
+.more-posts{
+  color: gray;
+  margin-right: 0rem;
+  text-align: right;
+}
+
+/* Subscription section */
+#subscription{
+  background-color: #00204a;
+}
+
+.help{
+  padding: 5% 7%;
+  color: aliceblue;
+  text-align: center;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.mesg{
+  padding: 7% 5%;
+  font-size: 1.2rem;
+  color: white;
+  text-align: center;
+  font-family: 'Recursive';
+  line-height: 2rem;
+}
+
+.contact-form{
+  padding: 7% 5%;
+  align-items: center;
+  color: gray;
+}
+
+.form-check-label{
+  padding-bottom: 2%;
+}
+
+.send-btn{
+  text-align: center;
+}
+
+.send-msg{
+  width: 80%;
+}
+
+/* Footer Section */
+
+.white-section{
+  text-align: center;
+  background-color: #d9faff;
+  color: gray;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+.social-icon:hover{
+  color: #3282b8;
+}
+
+.back-to-top{
+  color: gray;
+}
+
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
