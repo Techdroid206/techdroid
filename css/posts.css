@@ -11,6 +11,15 @@ hr {
   border-style: solid;
 }
 
+h2 {
+  color: #3282b8;
+  font-family: "Merriweather";
+  text-align: left;
+  font-weight: 800;
+  font-size: 3rem;
+  padding: 2% 7%;
+}
+
 .container-fluid {
   padding: 3% 7%;
 }
