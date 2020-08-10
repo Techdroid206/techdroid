@@ -1,0 +1,81 @@
+#title {
+  background-color: #00204a;
+  padding-bottom: unset;
+}
+
+body {
+  font-family: "Montserrat";
+}
+
+hr {
+  border-style: solid;
+}
+
+.container-fluid {
+  padding: 3% 7%;
+}
+
+.navbar {
+  padding-left: 7%;
+  padding-right: 7%;
+}
+
+.navbar-brand {
+  font-family: "Audiowide";
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.nav-item {
+  padding-right: 7%;
+  padding-left: 0px;
+}
+
+#posts-body {
+  background-color: #d9faff;
+  padding: 7%;
+  line-height: 2rem;
+}
+
+.body-fit{
+    height: 100%;
+}
+
+a {
+  color: #00204a;
+}
+
+.soon-gif {
+  text-align: center;
+}
+
+/* Footer Section */
+
+#footer {
+  text-align: center;
+  background-color: #d9faff;
+  color: gray;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+.social-icon:hover {
+  color: #3282b8;
+}
+
+.back-to-top {
+  color: gray;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
