@@ -11,13 +11,12 @@ hr {
   border-style: solid;
 }
 
-h2 {
+h2, h3 {
   color: #3282b8;
   font-family: "Merriweather";
   text-align: left;
   font-weight: 800;
-  font-size: 3rem;
-  padding: 2% 7%;
+  padding: 7%;
 }
 
 .container-fluid {
@@ -46,12 +45,27 @@ h2 {
   line-height: 2rem;
 }
 
-.body-fit{
-    height: 100%;
+.post-list {
+  text-align: center;
+}
+
+.card-img-top:hover {
+  opacity: 0.3;
+}
+
+.body-fit {
+  height: 100%;
 }
 
 a {
-  color: #00204a;
+  color: #8785a2;
+  font-weight: 800;
+}
+
+.side-section{
+  background-color: white;
+  border-radius: 3%;
+  padding-bottom: 5%;
 }
 
 .soon-gif {
