@@ -45,6 +45,10 @@ h2, h3 {
   line-height: 2rem;
 }
 
+.new{
+  width: 13%;
+}
+
 .post-list {
   text-align: center;
 }
